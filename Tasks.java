@@ -91,7 +91,7 @@ public class Tasks {
             if((int)temp + move > (int)'z' && temp != ' ') {
                 encode += (char)((int)'a' + (move - ((int)'z' - (int)temp) - 1));
             } else if((int)temp + move < (int)'a' && temp != ' ') {
-                encode += (char)((int)'z' - (move + ((int)temp - (int)'a') + 1));
+                encode += (char)((int)'z' + (move + ((int)temp - (int)'a') + 1));
             } else {
                 encode += (char)((int)temp + move);
             }
