@@ -1,5 +1,3 @@
-import static java.lang.Math.*;
-
 public class Rectangle {
     public Point Center; // Center coordinates
     public float Width; // Rectangle's width
